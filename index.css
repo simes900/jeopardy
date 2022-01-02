@@ -1,7 +1,11 @@
+*{
+    box-sizing: border-box;
+
+}
 html, body {
     margin: 0 ;
     padding: 0;
-    background-color: #060CE9;
+    background-color: black;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -13,56 +17,73 @@ html, body {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(5, 20%);
-    height: 90vh;
-    min-width: 500px;
+    height: 100vh;
+    min-width: 100vw;
     max-width: 1000px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
+   
 }
 
 .board *{
-    border: 1px solid black;
+    border: 2px solid black;
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: #060CE9;
 }
+
+
 
 .catagory-title{
     background-color: #060CE9;
     grid-row-start: 1;
     color: white;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 1.2em;
     padding: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    
+    
+
 }
 
 .money{
     color: gold;
     font-weight: 900;
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
 #question{
+    background-color: #060CE9;
     display: none;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    min-width: 100vw;
     border-left: #060CE9 20px solid;
     border-right: #060CE9 20px solid;
+    width: 100vw;
 }
 
 #question p, #answer p{
+    background-color: #060CE9;
     color:white;
-    font-size: 40px;
-   
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
     padding: 50px;
 }
 
 #answer{
+    background-color: #060CE9;
     display: none;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
     border-left: #060CE9 20px solid;
     border-right: #060CE9 20px solid;
 }
