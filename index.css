@@ -40,7 +40,7 @@ html, body {
     grid-row-start: 1;
     color: white;
     font-weight: 900;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 15px;
     font-family: 'Fjalla One', sans-serif;
     
@@ -97,8 +97,23 @@ button{
     margin-top:10px;
     padding: 5px;
     border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
 }
 button:hover{
     background:#D2B450;
     color:white;
+    
+}
+
+.simon{
+    color:white;
+    font-family: 'Fjalla One', sans-serif;
+}
+@media (min-width:600px){
+    .catagory-title{
+        font-size: 2em;
+    }
+    .money{
+        font-size: 3em;
+    }
 }
